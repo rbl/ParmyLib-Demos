@@ -62,6 +62,8 @@
 		frame.origin.x += frame.size.width;
 		
 		[@"blocks y" bindOnto:@"y" ofObject:_blocks[i]];
+		[@"blocks width" bindOnto:@"width" ofObject:_blocks[i]];
+		[@"blocks height" bindOnto:@"height" ofObject:_blocks[i]];
 	}	
 }
 
@@ -99,9 +101,9 @@
 	int opts = curve << 16;
 	
 	[self.view bringSubviewToFront:block];
-	[UIView animateWithDuration:0.2 delay:0.0 options:opts animations:^{
+	[UIView animateWithDuration:[@"anim duration" pfvd:0.2] delay:0.0 options:opts animations:^{
 		_expanded.transform = CGAffineTransformIdentity;
-		block.transform = CGAffineTransformMakeScale(1.4, 1.4);
+		block.transform = CGAffineTransformMakeScale([@"anim scale" pfvd:0.2], [@"anim scale" pfvd:0.2]);
 		_expanded = block;
 		
 	} completion:^(BOOL f) {

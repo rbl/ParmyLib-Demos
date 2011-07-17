@@ -11,6 +11,7 @@ void DefineParmyParms()
 	  [NSNumber numberWithFloat:40], @"blocks width",
 	  [NSNumber numberWithFloat:40], @"blocks height",
 	  [NSNumber numberWithFloat:0.5], @"anim duration",
+	  [NSNumber numberWithFloat:1.4], @"anim scale",
 	  [NSNumber numberWithInt:1], @"anim curve",
 		nil
 
