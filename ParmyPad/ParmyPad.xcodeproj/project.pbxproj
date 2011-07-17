@@ -1,0 +1,355 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* ParmyPadAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* ParmyPadAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		2804200B108E984D000629CD /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28042008108E984D000629CD /* RootViewController.m */; };
+		2804200C108E984D000629CD /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2804200A108E984D000629CD /* DetailViewController.m */; };
+		2804203C108E9BAB000629CD /* DetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2804203B108E9BAB000629CD /* DetailView.xib */; };
+		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
+		28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
+		3D6F1F5F13D2C6A600208A82 /* libParmyLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D6F1F5E13D2C6A600208A82 /* libParmyLib.a */; };
+		3D6F1F6C13D2C93000208A82 /* DemoAnimatedBlocksController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6F1F6A13D2C93000208A82 /* DemoAnimatedBlocksController.m */; };
+		3D6F1F6D13D2C93000208A82 /* DemoAnimatedBlocksController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D6F1F6B13D2C93000208A82 /* DemoAnimatedBlocksController.xib */; };
+		3D6F1F7213D2CAC500208A82 /* DemoUIViewsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6F1F7013D2CAC500208A82 /* DemoUIViewsController.m */; };
+		3D6F1F7313D2CAC500208A82 /* DemoUIViewsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D6F1F7113D2CAC500208A82 /* DemoUIViewsController.xib */; };
+		3D6F201F13D2E66200208A82 /* Parmy-capsuleLeftBase.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6F201813D2E66200208A82 /* Parmy-capsuleLeftBase.png */; };
+		3D6F202013D2E66200208A82 /* Parmy-capsuleLeftPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6F201913D2E66200208A82 /* Parmy-capsuleLeftPressed.png */; };
+		3D6F202113D2E66200208A82 /* Parmy-capsuleMiddleBase.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6F201A13D2E66200208A82 /* Parmy-capsuleMiddleBase.png */; };
+		3D6F202213D2E66200208A82 /* Parmy-capsuleMiddlePressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6F201B13D2E66200208A82 /* Parmy-capsuleMiddlePressed.png */; };
+		3D6F202313D2E66200208A82 /* Parmy-capsuleRightBase.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6F201C13D2E66200208A82 /* Parmy-capsuleRightBase.png */; };
+		3D6F202413D2E66200208A82 /* Parmy-capsuleRightPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6F201D13D2E66200208A82 /* Parmy-capsuleRightPressed.png */; };
+		3D6F202513D2E66200208A82 /* Parmy-popoverFrame.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6F201E13D2E66200208A82 /* Parmy-popoverFrame.png */; };
+		3D6F208A13D2FB0000208A82 /* Parmy-nibDown.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6F208813D2FB0000208A82 /* Parmy-nibDown.png */; };
+		3D6F208B13D2FB0000208A82 /* Parmy-nibUp.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6F208913D2FB0000208A82 /* Parmy-nibUp.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* ParmyPadAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParmyPadAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* ParmyPadAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParmyPadAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* ParmyPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParmyPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		28042007108E984D000629CD /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		28042008108E984D000629CD /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		28042009108E984D000629CD /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		2804200A108E984D000629CD /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		2804203B108E9BAB000629CD /* DetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailView.xib; sourceTree = "<group>"; };
+		2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28A0AAE50D9B0CCF005BE974 /* ParmyPad_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParmyPad_Prefix.pch; sourceTree = "<group>"; };
+		28AD735F0D9D9599002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3D6F1F5D13D2C68900208A82 /* ParmyLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ParmyLib.h; path = ../NoNameLib/include/ParmyLib.h; sourceTree = SOURCE_ROOT; };
+		3D6F1F5E13D2C6A600208A82 /* libParmyLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libParmyLib.a; path = "../NoNameLib/build/Debug-iphonesimulator/libParmyLib.a"; sourceTree = SOURCE_ROOT; };
+		3D6F1F6913D2C93000208A82 /* DemoAnimatedBlocksController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoAnimatedBlocksController.h; sourceTree = "<group>"; };
+		3D6F1F6A13D2C93000208A82 /* DemoAnimatedBlocksController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoAnimatedBlocksController.m; sourceTree = "<group>"; };
+		3D6F1F6B13D2C93000208A82 /* DemoAnimatedBlocksController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DemoAnimatedBlocksController.xib; sourceTree = "<group>"; };
+		3D6F1F6F13D2CAC500208A82 /* DemoUIViewsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoUIViewsController.h; sourceTree = "<group>"; };
+		3D6F1F7013D2CAC500208A82 /* DemoUIViewsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoUIViewsController.m; sourceTree = "<group>"; };
+		3D6F1F7113D2CAC500208A82 /* DemoUIViewsController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DemoUIViewsController.xib; sourceTree = "<group>"; };
+		3D6F201813D2E66200208A82 /* Parmy-capsuleLeftBase.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Parmy-capsuleLeftBase.png"; sourceTree = "<group>"; };
+		3D6F201913D2E66200208A82 /* Parmy-capsuleLeftPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Parmy-capsuleLeftPressed.png"; sourceTree = "<group>"; };
+		3D6F201A13D2E66200208A82 /* Parmy-capsuleMiddleBase.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Parmy-capsuleMiddleBase.png"; sourceTree = "<group>"; };
+		3D6F201B13D2E66200208A82 /* Parmy-capsuleMiddlePressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Parmy-capsuleMiddlePressed.png"; sourceTree = "<group>"; };
+		3D6F201C13D2E66200208A82 /* Parmy-capsuleRightBase.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Parmy-capsuleRightBase.png"; sourceTree = "<group>"; };
+		3D6F201D13D2E66200208A82 /* Parmy-capsuleRightPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Parmy-capsuleRightPressed.png"; sourceTree = "<group>"; };
+		3D6F201E13D2E66200208A82 /* Parmy-popoverFrame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Parmy-popoverFrame.png"; sourceTree = "<group>"; };
+		3D6F208813D2FB0000208A82 /* Parmy-nibDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Parmy-nibDown.png"; sourceTree = "<group>"; };
+		3D6F208913D2FB0000208A82 /* Parmy-nibUp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Parmy-nibUp.png"; sourceTree = "<group>"; };
+		3D6F208C13D2FB1F00208A82 /* ParmyParms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParmyParms.h; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* ParmyPad-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ParmyPad-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */,
+				3D6F1F5F13D2C6A600208A82 /* libParmyLib.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* ParmyPadAppDelegate.h */,
+				1D3623250D0F684500981E51 /* ParmyPadAppDelegate.m */,
+				28042007108E984D000629CD /* RootViewController.h */,
+				28042008108E984D000629CD /* RootViewController.m */,
+				28042009108E984D000629CD /* DetailViewController.h */,
+				2804200A108E984D000629CD /* DetailViewController.m */,
+				3D6F1F6913D2C93000208A82 /* DemoAnimatedBlocksController.h */,
+				3D6F1F6A13D2C93000208A82 /* DemoAnimatedBlocksController.m */,
+				3D6F1F6B13D2C93000208A82 /* DemoAnimatedBlocksController.xib */,
+				3D6F1F6F13D2CAC500208A82 /* DemoUIViewsController.h */,
+				3D6F1F7013D2CAC500208A82 /* DemoUIViewsController.m */,
+				3D6F1F7113D2CAC500208A82 /* DemoUIViewsController.xib */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* ParmyPad.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				3D6F1F5A13D2C66E00208A82 /* ParmyLib */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				28A0AAE50D9B0CCF005BE974 /* ParmyPad_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3D6F201713D2E66200208A82 /* images */,
+				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
+				2804203B108E9BAB000629CD /* DetailView.xib */,
+				8D1107310486CEB800E47090 /* ParmyPad-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3D6F1F5A13D2C66E00208A82 /* ParmyLib */ = {
+			isa = PBXGroup;
+			children = (
+				3D6F208C13D2FB1F00208A82 /* ParmyParms.h */,
+				3D6F1F5E13D2C6A600208A82 /* libParmyLib.a */,
+				3D6F1F5D13D2C68900208A82 /* ParmyLib.h */,
+			);
+			name = ParmyLib;
+			sourceTree = "<group>";
+		};
+		3D6F201713D2E66200208A82 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				3D6F208813D2FB0000208A82 /* Parmy-nibDown.png */,
+				3D6F208913D2FB0000208A82 /* Parmy-nibUp.png */,
+				3D6F201813D2E66200208A82 /* Parmy-capsuleLeftBase.png */,
+				3D6F201913D2E66200208A82 /* Parmy-capsuleLeftPressed.png */,
+				3D6F201A13D2E66200208A82 /* Parmy-capsuleMiddleBase.png */,
+				3D6F201B13D2E66200208A82 /* Parmy-capsuleMiddlePressed.png */,
+				3D6F201C13D2E66200208A82 /* Parmy-capsuleRightBase.png */,
+				3D6F201D13D2E66200208A82 /* Parmy-capsuleRightPressed.png */,
+				3D6F201E13D2E66200208A82 /* Parmy-popoverFrame.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* ParmyPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "ParmyPad" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ParmyPad;
+			productName = ParmyPad;
+			productReference = 1D6058910D05DD3D006BFB54 /* ParmyPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "ParmyPad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* ParmyPad */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */,
+				2804203C108E9BAB000629CD /* DetailView.xib in Resources */,
+				3D6F1F6D13D2C93000208A82 /* DemoAnimatedBlocksController.xib in Resources */,
+				3D6F1F7313D2CAC500208A82 /* DemoUIViewsController.xib in Resources */,
+				3D6F201F13D2E66200208A82 /* Parmy-capsuleLeftBase.png in Resources */,
+				3D6F202013D2E66200208A82 /* Parmy-capsuleLeftPressed.png in Resources */,
+				3D6F202113D2E66200208A82 /* Parmy-capsuleMiddleBase.png in Resources */,
+				3D6F202213D2E66200208A82 /* Parmy-capsuleMiddlePressed.png in Resources */,
+				3D6F202313D2E66200208A82 /* Parmy-capsuleRightBase.png in Resources */,
+				3D6F202413D2E66200208A82 /* Parmy-capsuleRightPressed.png in Resources */,
+				3D6F202513D2E66200208A82 /* Parmy-popoverFrame.png in Resources */,
+				3D6F208A13D2FB0000208A82 /* Parmy-nibDown.png in Resources */,
+				3D6F208B13D2FB0000208A82 /* Parmy-nibUp.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* ParmyPadAppDelegate.m in Sources */,
+				2804200B108E984D000629CD /* RootViewController.m in Sources */,
+				2804200C108E984D000629CD /* DetailViewController.m in Sources */,
+				3D6F1F6C13D2C93000208A82 /* DemoAnimatedBlocksController.m in Sources */,
+				3D6F1F7213D2CAC500208A82 /* DemoUIViewsController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ParmyPad_Prefix.pch;
+				INFOPLIST_FILE = "ParmyPad-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../NoNameLib/build/Debug-iphonesimulator\"",
+				);
+				PRODUCT_NAME = ParmyPad;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ParmyPad_Prefix.pch;
+				INFOPLIST_FILE = "ParmyPad-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../NoNameLib/build/Debug-iphonesimulator\"",
+				);
+				PRODUCT_NAME = ParmyPad;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "ParmyPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "ParmyPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
