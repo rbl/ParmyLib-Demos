@@ -8,6 +8,7 @@
 
 #import "DemoAnimatedBlocksController.h"
 
+#import "ParmyLib.h"
 
 @implementation DemoAnimatedBlocksController
 
@@ -45,7 +46,10 @@
 		[UIColor brownColor]
 	};
 	
-	CGRect frame = CGRectMake(40, 40, 50, 80);
+	CGRect frame = CGRectMake([@"blocks x" pfvd:40.0], 
+							  [@"blocks y" pfvd:40], 
+							  [@"blocks width" pfvd:50], 
+							  [@"blocks height" pfvd:80] );
 	for(int i=0; i<6; i++) 
 	{
 		_blocks[i] = [[UIButton buttonWithType:UIButtonTypeCustom] retain];
@@ -56,6 +60,8 @@
 		[_blocks[i] addTarget:self action:@selector(blockTouched:) forControlEvents:UIControlEventTouchDown];
 		
 		frame.origin.x += frame.size.width;
+		
+		[@"blocks y" bindOnto:@"y" ofObject:_blocks[i]];
 	}	
 }
 
